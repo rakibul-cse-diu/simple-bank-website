@@ -20,21 +20,38 @@
         <section class="container">
             <div class="row g-4 w-100">
                 <div class="col-12 col-lg-4">
-                    <div class="deposit bg-warning text-white p-4">
+                    <div class="deposit bg-warning text-white p-4 rounded">
                         <h3>Deposit</h3>
                         <span>$<span id="deposit-balance">00</span></span>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <div class="withdraw bg-primary text-white p-4">
+                    <div class="withdraw bg-primary text-white p-4 rounded">
                         <h3>Withdraw</h3>
                         <span>$<span id="withdraw-balance">00</span></span>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <div class="total bg-danger text-white p-4">
+                    <div class="total bg-danger text-white p-4 rounded">
                         <h3>Balance</h3>
                         <span>$<span id="total-balance">00</span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 w-100 mt-3">
+                <div class="col-12 col-lg-6">
+                    <div class="deposit-input p-5 bg-light rounded shadow-sm">
+                        <h3 class="mb-3">Deposit</h3>
+                        <input type="text" class="form-control mb-2" id="deposit-input" placeholder="$00">
+                        <button class="btn btn-success">deposit</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="deposit-input p-5 bg-light rounded shadow-sm">
+                        <h3 class="mb-3">Withdraw</h3>
+                        <input type="text" class="form-control mb-2" id="withdraw-input" placeholder="$00">
+                        <button class="btn btn-success">withdraw</button>
                     </div>
                 </div>
             </div>
